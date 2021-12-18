@@ -1,0 +1,63 @@
+﻿body, html {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  background: #555;
+  color: #eee;
+}
+
+.header-img {
+  width: 100%;
+}
+
+.hello {
+  border: 1px solid blue;
+}
+
+.content {
+  padding: 1em 9%;
+  display: flex;
+}
+
+.content .box {
+  padding: 1em;
+  flex: 1;
+  margin: 1em;
+  background: #333;
+  box-shadow: 3px 3px 3px 3px #222;
+  border-radius: 5px;
+}
+
+.content .img-container {
+  display: flex;
+}
+
+@media only screen and (max-width: 1200px) {
+  .content .img-container {
+    display: block;
+  }
+}
+
+.content .img-container div {
+  flex: 1;
+  padding: 2em;
+}
+
+.content .img-container img {
+  width: 100%;
+  height: auto;
+}
+
+.content .buy {
+  margin-bottom: .5em;
+}
+
+.content .contact {
+  margin-bottom: .5em;
+}
+
+footer {
+  font-size: 12px;
+  padding: 3em;
+}
+
+/*# sourceMappingURL=styles.css.map */

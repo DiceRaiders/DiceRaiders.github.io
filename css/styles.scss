@@ -1,0 +1,54 @@
+﻿body, html {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    background:#555;
+    color:#eee;
+}
+
+.header-img {
+    width:100%;
+}
+
+}
+.content {
+    padding:1em 9%;
+    display:flex;
+    .box {
+        padding:1em;
+        flex:1;
+        margin:1em;
+        background:#333;
+        box-shadow: 3px 3px 3px 3px #222; 
+        border-radius:5px;
+    }
+
+    .img-container {
+	
+        display:flex;
+  @media only screen and (max-width: 1200px) {
+        display:block;
+  
+  }
+  div {
+            flex: 1;
+            padding:2em;
+        }
+        img {
+            width:100%;
+            height:auto;
+        }
+    }
+
+    .buy {
+        margin-bottom:.5em;
+    }
+
+    .contact {
+        margin-bottom:.5em;
+    }
+}
+
+footer {
+    font-size:12px;
+    padding: 3em;
+}
